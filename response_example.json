@@ -1,0 +1,558 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "ResponseMetaData": {
+      "SearchResponse": {
+        "found": 46,
+        "display": "multiple",
+        "boundedBy": [
+          [
+            37.53585225,
+            55.71646573
+          ],
+          [
+            37.69531975,
+            55.80618863
+          ]
+        ]
+      },
+      "SearchRequest": {
+        "request": "заправка",
+        "skip": 0,
+        "results": 10,
+        "boundedBy": [
+          [
+            37.048427,
+            55.43644866
+          ],
+          [
+            38.175903,
+            56.04690174
+          ]
+        ]
+      }
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.640828,
+          55.746395
+        ]
+      },
+      "properties": {
+        "name": "Роснефть",
+        "description": "Котельническая наб., 1/15соор10, Москва, Россия",
+        "boundedBy": [
+          [
+            37.636697,
+            55.744085
+          ],
+          [
+            37.644908,
+            55.748716
+          ]
+        ],
+        "uri": "ymapsbm1://org?oid=148354456029",
+        "CompanyMetaData": {
+          "id": "148354456029",
+          "name": "Роснефть",
+          "address": "Москва, Котельническая набережная, 1/15соор10",
+          "url": "https://www.rosneft-azs.ru/",
+          "Phones": [
+            {
+              "type": "phone",
+              "formatted": "8 (800) 775-75-88"
+            }
+          ],
+          "Categories": [
+            {
+              "class": "gasstation",
+              "name": "АЗС"
+            }
+          ],
+          "Hours": {
+            "text": "ежедневно, круглосуточно",
+            "Availabilities": [
+              {
+                "TwentyFourHours": true,
+                "Everyday": true
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.622745,
+          55.783887
+        ]
+      },
+      "properties": {
+        "name": "Лукойл",
+        "description": "Олимпийский просп., 5, стр. 1, Москва, Россия",
+        "boundedBy": [
+          [
+            37.618138,
+            55.782081
+          ],
+          [
+            37.626349,
+            55.786708
+          ]
+        ],
+        "uri": "ymapsbm1://org?oid=1131889882",
+        "CompanyMetaData": {
+          "id": "1131889882",
+          "name": "Лукойл",
+          "address": "Москва, Олимпийский проспект, 5с1",
+          "url": "https://auto.lukoil.ru/",
+          "Phones": [
+            {
+              "type": "phone",
+              "formatted": "8 (800) 100-09-11"
+            }
+          ],
+          "Categories": [
+            {
+              "class": "gasstation",
+              "name": "АЗС"
+            }
+          ],
+          "Hours": {
+            "text": "ежедневно, круглосуточно",
+            "Availabilities": [
+              {
+                "TwentyFourHours": true,
+                "Everyday": true
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.665129,
+          55.750302
+        ]
+      },
+      "properties": {
+        "name": "Нефтьмагистраль",
+        "description": "Костомаровский пер., 10, стр. 2, Москва, Россия",
+        "boundedBy": [
+          [
+            37.661024,
+            55.747986
+          ],
+          [
+            37.669234,
+            55.752617
+          ]
+        ],
+        "uri": "ymapsbm1://org?oid=77492515242",
+        "CompanyMetaData": {
+          "id": "77492515242",
+          "name": "Нефтьмагистраль",
+          "address": "Москва, Костомаровский переулок, 10, стр. 2",
+          "url": "https://neftm.ru/",
+          "Phones": [
+            {
+              "type": "phone",
+              "formatted": "8 (800) 700-46-42"
+            }
+          ],
+          "Categories": [
+            {
+              "class": "gasstation",
+              "name": "АЗС"
+            }
+          ],
+          "Hours": {
+            "text": "ежедневно, круглосуточно",
+            "Availabilities": [
+              {
+                "TwentyFourHours": true,
+                "Everyday": true
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.586584,
+          55.768237
+        ]
+      },
+      "properties": {
+        "name": "Газпромнефть",
+        "description": "пер. Красина, вл15, Москва, Россия",
+        "boundedBy": [
+          [
+            37.582529,
+            55.765909
+          ],
+          [
+            37.59074,
+            55.770537
+          ]
+        ],
+        "uri": "ymapsbm1://org?oid=1107642846",
+        "CompanyMetaData": {
+          "id": "1107642846",
+          "name": "Газпромнефть",
+          "address": "Москва, переулок Красина, вл15",
+          "url": "https://gpnbonus.ru/",
+          "Phones": [
+            {
+              "type": "phone",
+              "formatted": "8 (800) 700-51-51"
+            }
+          ],
+          "Categories": [
+            {
+              "class": "gasstation",
+              "name": "АЗС"
+            }
+          ],
+          "Hours": {
+            "text": "ежедневно, круглосуточно",
+            "Availabilities": [
+              {
+                "TwentyFourHours": true,
+                "Everyday": true
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.651244,
+          55.729347
+        ]
+      },
+      "properties": {
+        "name": "Нефтьмагистраль",
+        "description": "Шлюзовая наб., дв16с2, Москва, Россия",
+        "boundedBy": [
+          [
+            37.6471,
+            55.726994
+          ],
+          [
+            37.655311,
+            55.731627
+          ]
+        ],
+        "uri": "ymapsbm1://org?oid=1065553990",
+        "CompanyMetaData": {
+          "id": "1065553990",
+          "name": "Нефтьмагистраль",
+          "address": "Москва, Шлюзовая набережная, дв16с2",
+          "url": "https://neftm.ru/",
+          "Phones": [
+            {
+              "type": "phone",
+              "formatted": "8 (800) 700-46-42"
+            }
+          ],
+          "Categories": [
+            {
+              "class": "gasstation",
+              "name": "АЗС"
+            }
+          ],
+          "Hours": {
+            "text": "ежедневно, круглосуточно",
+            "Availabilities": [
+              {
+                "TwentyFourHours": true,
+                "Everyday": true
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.559218,
+          55.774662
+        ]
+      },
+      "properties": {
+        "name": "Газпромнефть",
+        "description": "Беговая ул., 2А, стр. 1, Москва, Россия",
+        "boundedBy": [
+          [
+            37.555068,
+            55.772345
+          ],
+          [
+            37.563278,
+            55.776973
+          ]
+        ],
+        "uri": "ymapsbm1://org?oid=27527534461",
+        "CompanyMetaData": {
+          "id": "27527534461",
+          "name": "Газпромнефть",
+          "address": "Москва, Беговая улица, 2А, стр. 1",
+          "url": "https://gpnbonus.ru/",
+          "Phones": [
+            {
+              "type": "phone",
+              "formatted": "8 (800) 700-51-51"
+            }
+          ],
+          "Categories": [
+            {
+              "class": "gasstation",
+              "name": "АЗС"
+            }
+          ],
+          "Hours": {
+            "text": "ежедневно, круглосуточно",
+            "Availabilities": [
+              {
+                "TwentyFourHours": true,
+                "Everyday": true
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.653426,
+          55.793329
+        ]
+      },
+      "properties": {
+        "name": "Газпромнефть",
+        "description": "ул. Сокольнический Вал, 2Г, Москва, Россия",
+        "boundedBy": [
+          [
+            37.649373,
+            55.791015
+          ],
+          [
+            37.657583,
+            55.795641
+          ]
+        ],
+        "uri": "ymapsbm1://org?oid=1278440846",
+        "CompanyMetaData": {
+          "id": "1278440846",
+          "name": "Газпромнефть",
+          "address": "Москва, улица Сокольнический Вал, 2Г",
+          "url": "https://gpnbonus.ru/",
+          "Phones": [
+            {
+              "type": "phone",
+              "formatted": "8 (800) 700-51-51"
+            }
+          ],
+          "Categories": [
+            {
+              "class": "gasstation",
+              "name": "АЗС"
+            }
+          ],
+          "Hours": {
+            "text": "ежедневно, круглосуточно",
+            "Availabilities": [
+              {
+                "TwentyFourHours": true,
+                "Everyday": true
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.617195,
+          55.72939
+        ]
+      },
+      "properties": {
+        "name": "Лукойл",
+        "description": "ул. Коровий Вал, 9Б, Москва, Россия",
+        "boundedBy": [
+          [
+            37.613189,
+            55.72708
+          ],
+          [
+            37.621399,
+            55.731713
+          ]
+        ],
+        "uri": "ymapsbm1://org?oid=1081037652",
+        "CompanyMetaData": {
+          "id": "1081037652",
+          "name": "Лукойл",
+          "address": "Москва, улица Коровий Вал, 9Б",
+          "url": "https://auto.lukoil.ru/",
+          "Phones": [
+            {
+              "type": "phone",
+              "formatted": "8 (800) 100-09-11"
+            }
+          ],
+          "Categories": [
+            {
+              "class": "gasstation",
+              "name": "АЗС"
+            }
+          ],
+          "Hours": {
+            "text": "ежедневно, круглосуточно",
+            "Availabilities": [
+              {
+                "TwentyFourHours": true,
+                "Everyday": true
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.671954,
+          55.779474
+        ]
+      },
+      "properties": {
+        "name": "Газпромнефть",
+        "description": "Гаврикова ул., 4ст1, Москва, Россия",
+        "boundedBy": [
+          [
+            37.667842,
+            55.777135
+          ],
+          [
+            37.676053,
+            55.781762
+          ]
+        ],
+        "uri": "ymapsbm1://org?oid=1165056382",
+        "CompanyMetaData": {
+          "id": "1165056382",
+          "name": "Газпромнефть",
+          "address": "Москва, Гаврикова улица, 4ст1",
+          "url": "https://gpnbonus.ru/",
+          "Phones": [
+            {
+              "type": "phone",
+              "formatted": "8 (800) 700-51-51"
+            }
+          ],
+          "Categories": [
+            {
+              "class": "gasstation",
+              "name": "АЗС"
+            }
+          ],
+          "Hours": {
+            "text": "ежедневно, круглосуточно",
+            "Availabilities": [
+              {
+                "TwentyFourHours": true,
+                "Everyday": true
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.567749,
+          55.757246
+        ]
+      },
+      "properties": {
+        "name": "Лукойл",
+        "description": "Рочдельская ул., 14-20с7, Москва, Россия",
+        "boundedBy": [
+          [
+            37.563611,
+            55.754948
+          ],
+          [
+            37.571821,
+            55.759577
+          ]
+        ],
+        "uri": "ymapsbm1://org?oid=1096134935",
+        "CompanyMetaData": {
+          "id": "1096134935",
+          "name": "Лукойл",
+          "address": "Москва, Рочдельская улица, 14-20с7",
+          "url": "https://auto.lukoil.ru/",
+          "Phones": [
+            {
+              "type": "phone",
+              "formatted": "8 (800) 100-09-11"
+            }
+          ],
+          "Categories": [
+            {
+              "class": "gasstation",
+              "name": "АЗС"
+            }
+          ],
+          "Hours": {
+            "text": "ежедневно, круглосуточно",
+            "Availabilities": [
+              {
+                "TwentyFourHours": true,
+                "Everyday": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
