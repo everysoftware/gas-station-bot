@@ -35,7 +35,7 @@ async def get_location(msg: types.Message, state: FSMContext) -> None:
         return
 
     await msg.answer(
-        'Ближайшие заправочные станции',
+        '<b>Заправочные станции рядом с Вами ⛽️</b>\n\n',
         reply_markup=get_stations_kb(result)
     )
     await state.set_state(MainGroup.select_a_station)
