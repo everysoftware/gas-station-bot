@@ -1,13 +1,13 @@
-import sys
 import asyncio
 import logging
+import sys
 
 from aiogram import Bot, Dispatcher
 
-from handlers import routers
-from config import cfg
-from handlers.commands import BOT_COMMANDS
-from db import create_async_engine, get_session_maker
+from src.config import cfg
+from src.db import create_async_engine, get_session_maker
+from src.handlers import routers
+from src.handlers.commands import BOT_COMMANDS
 
 
 async def main() -> None:

@@ -1,11 +1,11 @@
 from aiogram import filters, Router, types, F
 from aiogram.fsm.context import FSMContext
 
-from fsm import MainGroup
-from keyboards import get_main_kb, get_stations_kb
-from .commands import BOT_COMMANDS_STR
+from src.fsm import MainGroup
+from src.keyboards import get_main_kb, get_stations_kb
 from src.middlewares import DatabaseMd
 from src.services import get_nearest_gas_station
+from .commands import BOT_COMMANDS_STR
 
 main_router = Router(name='start')
 

@@ -1,6 +1,6 @@
 import abc
-from typing import Generic, TypeVar
 from collections.abc import Sequence
+from typing import Generic, TypeVar
 
 from sqlalchemy import delete, select
 from sqlalchemy.ext.asyncio import AsyncSession
@@ -26,7 +26,7 @@ class Repository(Generic[AbstractModel]):
         return (await self.session.execute(statement)).one_or_none()
 
     async def get_many(
-        self, where_clause, limit: int = 100, order_by=None
+            self, where_clause, limit: int = 100, order_by=None
     ) -> Sequence[Base]:
         statement = select(self.type_model).where(where_clause).limit(limit)
         if order_by:

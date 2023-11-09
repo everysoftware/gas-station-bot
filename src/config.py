@@ -2,8 +2,8 @@ import pathlib
 from dataclasses import dataclass
 from os import getenv
 
-from sqlalchemy.engine import URL
 from dotenv import load_dotenv
+from sqlalchemy.engine import URL
 
 
 def setup_env() -> None:

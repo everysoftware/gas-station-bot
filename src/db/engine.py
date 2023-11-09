@@ -1,8 +1,7 @@
+from sqlalchemy.engine import URL
 from sqlalchemy.ext.asyncio import AsyncEngine, AsyncSession
 from sqlalchemy.ext.asyncio import create_async_engine as create_async_engine_
-from sqlalchemy.engine import URL
 from sqlalchemy.orm import sessionmaker
-from sqlalchemy import MetaData
 
 from src.config import cfg
 
@@ -22,7 +21,7 @@ def get_session_maker(engine: AsyncEngine = None) -> sessionmaker:
 
 
 @DeprecationWarning
-async def proceed_schemes(engine: AsyncEngine, metadata: MetaData) -> None:
+async def proceed_schemes(*_) -> None:
     #  async with engine.begin() as conn:
     #     await conn.run_sync(metadata.create_all)
     pass

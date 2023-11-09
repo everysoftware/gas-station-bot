@@ -4,7 +4,7 @@ from aiogram import BaseMiddleware
 from aiogram.types import Message, CallbackQuery
 from sqlalchemy.orm import sessionmaker
 
-from db.database import Database
+from src.db.database import Database
 
 
 class DatabaseMd(BaseMiddleware):
@@ -13,7 +13,7 @@ class DatabaseMd(BaseMiddleware):
             handler: Callable[[Message, Dict[str, Any]], Awaitable[Any]],
             event: Message | CallbackQuery,
             data: Dict[str, Any]
-            ) -> Any:
+    ) -> Any:
         session_maker: sessionmaker = data['session_maker']
         async with session_maker() as session:
             db = Database(session)
