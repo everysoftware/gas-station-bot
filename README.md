@@ -17,25 +17,3 @@
 ## Стек технологий
 
 Python3, Aiogram3, SQLAlchemy2, Alembic, Yandex Maps API  
-
-## Сборка
-
-1. Установите зависимости ```pip install -r requirements.txt```
-2. Задайте переменные окружения с помощью файла ```.env```
-```
-DEBUG=0
-LOGGING_LEVEL="INFO"
-
-TG_TOKEN=
-
-POSTGRES_DATABASE=
-POSTGRES_HOST=
-POSTGRES_PASSWORD=
-POSTGRES_PORT="5432"
-POSTGRES_USERNAME=
-
-YANDEX_API_KEY=
-```
-3. Примените миграции: ```alembic upgrade head``` или ```make migrate```
-4. Запустите бота: ```python -m src```
-   
